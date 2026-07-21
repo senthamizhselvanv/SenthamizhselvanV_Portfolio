@@ -16,7 +16,7 @@ function Home() {
           content="Senthamizhselvan V - Frontend Developer with 4+ years of experience building scalable React applications. Expert in React.js, Redux, JavaScript, and modern frontend technologies." 
         />
         <meta name="keywords" content="Frontend Developer, React Developer, JavaScript, Redux, Web Developer, UI Developer, Senthamizhselvan" />
-        
+        <meta name="author" content="Senthamizhselvan V" />
         {/* Open Graph */}
         <meta property="og:title" content="Senthamizhselvan V | Frontend Developer" />
         <meta property="og:description" content="Frontend Developer with 4+ years of experience building scalable React applications." />
