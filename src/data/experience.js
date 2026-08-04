@@ -1,84 +1,106 @@
 export const experiences = [
   {
     id: 1,
-    role: 'Senior Frontend Developer',
-    company: 'Tech Solutions Inc.',
-    location: 'Remote',
-    duration: 'Jan 2023 - Present',
-    type: 'Full-time',
-    description: 'Leading frontend development for enterprise applications, mentoring junior developers, and driving technical decisions.',
+    role: "Senior UI Developer",
+    company: "Perpetuuiti Technosoft Pvt. Ltd.",
+    location: "Navalur, Chennai",
+    duration: "Mar 2023 - Present",
+    type: "Full-time",
+    description:
+      "Working as a Senior UI Developer on enterprise web applications using React.js, JavaScript, jQuery, and REST APIs. Contributed to multiple enterprise products including Disaster Recovery Management (DRM) and Bot Patrol.",
     responsibilities: [
-      'Led development of scalable React applications serving 100K+ users',
-      'Architected reusable component library reducing development time by 40%',
-      'Implemented Redux state management for complex application workflows',
-      'Integrated REST APIs with efficient caching strategies',
-      'Improved application performance achieving 95+ Lighthouse scores',
-      'Mentored team of 4 junior developers through code reviews',
-      'Collaborated with UX team to implement pixel-perfect designs'
+      "Developed 10+ enterprise modules for the Disaster Recovery Management (DRM) platform.",
+      "Built responsive UI using React.js, JavaScript, jQuery, HTML5, CSS3, and Bootstrap.",
+      "Integrated REST APIs and implemented CRUD operations.",
+      "Developed reusable UI components and client-side validations.",
+      "Developed React.js screens for Bot Patrol rule configuration and live event monitoring.",
+      "Implemented configurable behaviour detection rules for running, crowding, intrusion, and loitering.",
+      "Collaborated with backend developers and QA teams.",
+      "Resolved production defects reported by QA and clients.",
+      "Participated in code reviews, production deployments, and post-release support.",
+      "Used TortoiseSVN for version control and followed Agile SDLC.",
     ],
-    technologies: ['React.js', 'Redux', 'TypeScript', 'REST API', 'SCSS'],
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "jQuery",
+      "Redux",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "REST API",
+      "TortoiseSVN",
+    ],
     achievements: [
-      'Reduced page load time by 60%',
-      'Increased code coverage to 85%'
-    ]
+      "10+ Modules Developed",
+      "Enterprise Project Delivery",
+      "Reusable Component Development",
+    ],
   },
+
   {
     id: 2,
-    role: 'Frontend Developer',
-    company: 'Digital Innovations Ltd.',
-    location: 'Hybrid',
-    duration: 'Jun 2021 - Dec 2022',
-    type: 'Full-time',
-    description: 'Developed and maintained multiple web applications using modern frontend technologies.',
+    role: "Software Engineer",
+    company: "Reveille Technologies",
+    location: "Chennai",
+    duration: "Jun 2020 - Feb 2023",
+    type: "Full-time",
+    description:
+      "Worked on enterprise applications using React.js and Visual Basic. Contributed to frontend development, REST API integration, backend Web API development, bug fixing, and feature enhancements while following Agile methodologies.",
     responsibilities: [
-      'Developed responsive web applications using React.js',
-      'Built interactive UI components with smooth animations',
-      'Implemented state management using Redux Toolkit',
-      'Collaborated in Agile/Scrum development environment',
-      'Participated in code reviews and technical discussions',
-      'Wrote unit tests using Jest and React Testing Library',
-      'Optimized applications for cross-browser compatibility'
+      "Developed reusable React.js components for the Scalehigh application.",
+      "Integrated REST APIs with frontend modules.",
+      "Contributed to backend development using Web API.",
+      "Implemented new features and enhanced existing functionality.",
+      "Performed bug fixing and maintenance for the Timestamp application using Visual Basic.",
+      "Collaborated with cross-functional teams throughout the Agile SDLC.",
+      "Used Git for source code management and version control.",
     ],
-    technologies: ['React.js', 'Redux', 'JavaScript', 'Bootstrap', 'jQuery'],
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "Visual Basic",
+      "REST API",
+      "Web API",
+      "Git",
+    ],
     achievements: [
-      'Delivered 15+ features ahead of schedule',
-      'Reduced bug reports by 30%'
-    ]
+      "Scalehigh Delivery",
+      "Timestamp Maintenance",
+      "Frontend & Backend Support",
+    ],
   },
-  {
-    id: 3,
-    role: 'Junior Frontend Developer',
-    company: 'WebCraft Studios',
-    location: 'On-site',
-    duration: 'Mar 2020 - May 2021',
-    type: 'Full-time',
-    description: 'Started professional journey building web interfaces and learning modern development practices.',
-    responsibilities: [
-      'Developed responsive web pages using HTML, CSS, JavaScript',
-      'Learned and implemented React.js for SPA development',
-      'Collaborated with backend developers for API integration',
-      'Fixed bugs and implemented feature enhancements',
-      'Participated in daily standups and sprint planning'
-    ],
-    technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Bootstrap'],
-    achievements: [
-      'Promoted to Frontend Developer within 1 year',
-      'Completed React certification'
-    ]
-  }
 ];
 
 export const education = [
   {
-    degree: "Bachelor's Degree in Computer Science",
-    institution: 'University Name',
-    location: 'City, State',
-    duration: '2016 - 2020',
-    description: 'Focused on software engineering, web technologies, and computer science fundamentals.',
+    id: 1,
+    degree: "Master of Computer Applications (M.C.A.)",
+    institution: "Indo American College",
+    location: "Cheyyar, Tamil Nadu",
+    university: "Thiruvalluvar University",
+    duration: "2013 - 2016",
+    description:
+      "Completed Master of Computer Applications with a strong foundation in software development, programming, database management, and web technologies.",
     achievements: [
-      'Dean\'s List - Multiple Semesters',
-      'Led Web Development Club',
-      'Completed Senior Project on React Applications'
-    ]
-  }
+      "Specialized in Computer Applications",
+      "Completed academic projects in software development",
+      "Built strong fundamentals in programming and databases",
+    ],
+  },
+  {
+    id: 2,
+    degree: "Bachelor of Computer Applications (B.C.A.)",
+    institution: "Adhiparasakthi College of Arts and Science",
+    location: "Mulluvadi, Tamil Nadu",
+    university: "Thiruvalluvar University",
+    duration: "2010 - 2013",
+    description:
+      "Studied core computer science subjects including programming, data structures, database management systems, networking, and software engineering.",
+    achievements: [
+      "Graduated with a Bachelor's degree in Computer Applications",
+      "Completed academic projects in software development",
+      "Built a strong foundation for a career in software development",
+    ],
+  },
 ];

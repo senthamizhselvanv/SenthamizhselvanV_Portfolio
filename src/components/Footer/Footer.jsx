@@ -3,9 +3,8 @@ import { FaGithub, FaLinkedin, FaTwitter, FaHeart } from 'react-icons/fa';
 import './Footer.scss';
 
 const socialLinks = [
-  { icon: FaGithub, href: '[github.com](https://github.com)', label: 'GitHub' },
-  { icon: FaLinkedin, href: '[linkedin.com](https://linkedin.com)', label: 'LinkedIn' },
-  { icon: FaTwitter, href: '[twitter.com](https://twitter.com)', label: 'Twitter' }
+  { icon: FaGithub, href: 'https://github.com/senthamizhselvanv', label: 'GitHub' },
+  { icon: FaLinkedin, href: 'https://linkedin.com/in/senthamizhselvan-v', label: 'LinkedIn' },
 ];
 
 const quickLinks = [
@@ -77,7 +76,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <p>
-            © {currentYear} Senthamizhselvan V. Made with <FaHeart className="heart" /> using React
+            © {currentYear} Senthamizhselvan V. Made with using React
           </p>
         </div>
       </div>

@@ -1,99 +1,117 @@
 export const projects = [
   {
     id: 1,
-    title: 'Enterprise Dashboard',
-    description: 'A comprehensive enterprise dashboard with real-time analytics, user management, and advanced reporting capabilities. Built with React.js and Redux for state management.',
-    longDescription: 'This enterprise-grade dashboard solution provides businesses with real-time insights into their operations. Features include customizable widgets, role-based access control, and seamless API integrations.',
-    image: '/images/project-dashboard.jpg',
-    technologies: ['React.js', 'Redux', 'Bootstrap', 'Chart.js', 'REST API'],
-    category: 'Web Application',
-    features: [
-      'Real-time Dashboard Analytics',
-      'User Management System',
-      'Advanced Reporting & Export',
-      'REST API Integration',
-      'Role-based Access Control'
+    title: 'Disaster Recovery Management (DRM) System',
+    description:
+      'Enterprise Disaster Recovery Management platform developed using React.js, JavaScript, and jQuery with REST API integration and multiple business modules.',
+    longDescription:
+      'Worked as a UI Developer on a large-scale Disaster Recovery Management platform. Initially developed features using React.js and later contributed extensively using JavaScript and jQuery after the application migrated. Built 10+ enterprise modules, integrated REST APIs, implemented reusable UI components, performed CRUD operations, resolved production issues, and collaborated with backend teams throughout the software lifecycle.',
+    image: '/images/project-drm.jpg',
+    technologies: [
+      'React.js',
+      'JavaScript',
+      'jQuery',
+      'Bootstrap',
+      'REST API',
+      'AJAX',
+      'TortoiseSVN'
     ],
-    github: '[github.com](https://github.com)',
-    demo: '[demo.com](https://demo.com)',
+    category: 'Enterprise Web Application',
+    features: [
+      'Developed 10+ Enterprise Modules',
+      'REST API Integration',
+      'CRUD Operations',
+      'Reusable UI Components',
+      'Client-side Validation',
+      'Production Bug Fixing',
+      'Code Reviews',
+      'Production Deployment Support',
+      'Cross-team Collaboration',
+      'Version Control using TortoiseSVN'
+    ],
     featured: true
   },
+
   {
     id: 2,
-    title: 'Rule Configuration System',
-    description: 'A visual rule configuration system with drag-and-drop interface, built using React.js and Konva.js for canvas manipulation.',
-    longDescription: 'An intuitive visual configuration tool that allows users to create complex business rules through a drag-and-drop interface. Features undo/redo functionality and real-time validation.',
-    image: '/images/project-rules.jpg',
-    technologies: ['React.js', 'Konva.js', 'Redux', 'Node.js'],
-    category: 'Web Application',
-    features: [
-      'Visual Rule Configuration',
-      'Drag and Drop Interface',
-      'Undo/Redo Functionality',
-      'Dynamic Rule Validation',
-      'Export/Import Rules'
+    title: 'Bot Patrol',
+    description:
+      'Surveillance application for configuring behaviour detection rules and monitoring live security events.',
+    longDescription:
+      'Developed React.js UI screens for configuring intelligent surveillance rules and monitoring real-time events. Built interfaces for behaviour detection including running, crowding, intrusion, and loitering. Focused on creating responsive and user-friendly configuration screens integrated with backend services.',
+    image: '/images/project-bot-patrol.jpg',
+    technologies: [
+      'React.js',
+      'JavaScript',
+      'REST API',
+      'Bootstrap'
     ],
-    github: '[github.com](https://github.com)',
-    demo: '[demo.com](https://demo.com)',
-    featured: true
+    category: 'Surveillance Application',
+    features: [
+      'Rule Configuration UI',
+      'Live Event Monitoring',
+      'Behaviour Detection Rules',
+      'Running Detection',
+      'Crowding Detection',
+      'Intrusion Detection',
+      'Loitering Detection',
+      'Responsive User Interface',
+      'REST API Integration'
+    ],
+    featured: false
   },
+
   {
     id: 3,
-    title: 'Database Configuration Portal',
-    description: 'A database configuration management portal with server-side DataTables and performance optimization features.',
-    longDescription: 'Enterprise database configuration tool that provides administrators with powerful tools to manage and optimize database settings. Features include server-side pagination and advanced filtering.',
-    image: '/images/project-database.jpg',
-    technologies: ['JavaScript', 'jQuery', 'Bootstrap', 'DataTables', 'PHP'],
-    category: 'Web Application',
-    features: [
-      'Server-Side DataTables',
-      'Configuration Management',
-      'Performance Optimization',
-      'Batch Operations',
-      'Audit Logging'
+    title: 'Timestamp',
+    description:
+      'Desktop application maintenance project involving bug fixing and feature enhancements using Visual Basic.',
+    longDescription:
+      'Worked on maintaining an existing Visual Basic application by resolving reported issues and implementing feature enhancements. Improved application stability and supported ongoing business requirements through continuous maintenance.',
+    image: '/images/project-timestamp.jpg',
+    technologies: [
+      'Visual Basic',
+      'Windows Application'
     ],
-    github: '[github.com](https://github.com)',
-    demo: '[demo.com](https://demo.com)',
-    featured: true
+    category: 'Desktop Application',
+    features: [
+      'Bug Fixing',
+      'Feature Enhancement',
+      'Application Maintenance',
+      'Issue Analysis',
+      'Performance Improvements'
+    ],
+    featured: false
   },
+
   {
     id: 4,
-    title: 'E-Commerce Platform',
-    description: 'Modern e-commerce platform with cart management, payment integration, and responsive design.',
-    longDescription: 'Full-featured e-commerce solution with product catalog, shopping cart, secure checkout, and order management. Optimized for performance and mobile responsiveness.',
-    image: '/images/project-ecommerce.jpg',
-    technologies: ['React.js', 'Redux', 'Stripe', 'Node.js', 'MongoDB'],
-    category: 'E-Commerce',
-    features: [
-      'Product Catalog',
-      'Shopping Cart',
-      'Secure Checkout',
-      'Order Management',
-      'Responsive Design'
+    title: 'Scalehigh',
+    description:
+      'Enterprise web application developed using React.js with REST API integration and reusable component architecture.',
+    longDescription:
+      'Contributed to frontend development using React.js by building reusable components and integrating REST APIs. Also assisted backend development using Web API, collaborated with cross-functional teams, followed Agile methodologies, and managed source code using Git.',
+    image: '/images/project-scalehigh.jpg',
+    technologies: [
+      'React.js',
+      'JavaScript',
+      'REST API',
+      'Web API',
+      'Git'
     ],
-    github: '[github.com](https://github.com)',
-    demo: '[demo.com](https://demo.com)',
-    featured: false
-  },
-  {
-    id: 5,
-    title: 'Task Management App',
-    description: 'Collaborative task management application with real-time updates and team collaboration features.',
-    longDescription: 'A powerful task management tool designed for teams. Features include project boards, task assignments, due date tracking, and real-time collaboration.',
-    image: '/images/project-tasks.jpg',
-    technologies: ['React.js', 'Firebase', 'Material-UI', 'WebSocket'],
-    category: 'Productivity',
+    category: 'Enterprise Web Application',
     features: [
-      'Project Boards',
-      'Task Assignments',
-      'Real-time Updates',
-      'Team Collaboration',
-      'Progress Tracking'
+      'Reusable React Components',
+      'REST API Integration',
+      'Backend Web API Development',
+      'Component-based Architecture',
+      'Git Version Control',
+      'Agile SDLC',
+      'Cross-functional Collaboration'
     ],
-    github: '[github.com](https://github.com)',
-    demo: '[demo.com](https://demo.com)',
-    featured: false
+    featured: true
   }
 ];
 
-export const projectCategories = ['All', 'Web Application', 'E-Commerce', 'Productivity'];
+export const projectCategories = ['All', 'Enterprise Web Application', 'Desktop Application', 'Surveillance Application'];
+  

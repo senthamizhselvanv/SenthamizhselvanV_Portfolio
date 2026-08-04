@@ -10,16 +10,16 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Senthamizhselvan V | Frontend Developer | React Developer</title>
+        <title>Senthamizhselvan V | Senior Frontend Developer | React Developer</title>
         <meta 
           name="description" 
-          content="Senthamizhselvan V - Frontend Developer with 4+ years of experience building scalable React applications. Expert in React.js, Redux, JavaScript, and modern frontend technologies." 
+          content="Senthamizhselvan V - Senior Frontend developer with 6+ years of IT experience building enterprise web applications. Experienced in React.js, JavaScript, jQuery, Redux, HTML5, CSS3, Bootstrap, REST API integration, and modular UI development. Started with Visual Basic, later worked on React.js applications, and currently develop enterprise UI modules for Disaster Recovery Management systems." 
         />
-        <meta name="keywords" content="Frontend Developer, React Developer, JavaScript, Redux, Web Developer, UI Developer, Senthamizhselvan" />
+        <meta name="keywords" content="Senior Frontend Developer, React Developer, JavaScript, Web Developer, UI Developer, Senthamizhselvan" />
         <meta name="author" content="Senthamizhselvan V" />
         {/* Open Graph */}
-        <meta property="og:title" content="Senthamizhselvan V | Frontend Developer" />
-        <meta property="og:description" content="Frontend Developer with 4+ years of experience building scalable React applications." />
+        <meta property="og:title" content="Senthamizhselvan V | Senior Frontend Developer" />
+        <meta property="og:description" content="Senior Frontend Developer with 6+ years of experience building enterprise web applications." />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Senthamizhselvan V Portfolio" />
         <meta property="og:url" content="https://senthamizhselvan.dev" />
@@ -27,8 +27,8 @@ function Home() {
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Senthamizhselvan V | Frontend Developer" />
-        <meta name="twitter:description" content="Frontend Developer with 4+ years of experience building scalable React applications." />
+        <meta name="twitter:title" content="Senthamizhselvan V | Senior Frontend Developer" />
+        <meta name="twitter:description" content="Senior Frontend Developer with 6+ years of experience building enterprise web applications." />
         <meta name="twitter:image" content="/favicon.svg" />
         
         {/* Canonical */}

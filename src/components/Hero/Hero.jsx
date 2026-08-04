@@ -1,23 +1,37 @@
-import { motion } from 'framer-motion';
-import { TypeAnimation } from 'react-type-animation';
-import { FaDownload, FaEnvelope, FaArrowDown, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { FaReact, FaJs, FaNode } from 'react-icons/fa';
-import { SiTypescript, SiRedux, SiTailwindcss } from 'react-icons/si';
-import './Hero.scss';
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
+import {
+  FaDownload,
+  FaEnvelope,
+  FaArrowDown,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
+import { FaReact, FaJs, FaNode } from "react-icons/fa";
+import { SiTypescript, SiRedux, SiTailwindcss } from "react-icons/si";
+import "./Hero.scss";
 
 const socialLinks = [
-  { icon: FaGithub, href: '[github.com](https://github.com)', label: 'GitHub' },
-  { icon: FaLinkedin, href: '[linkedin.com](https://linkedin.com)', label: 'LinkedIn' },
-  { icon: FaTwitter, href: '[twitter.com](https://twitter.com)', label: 'Twitter' }
+  {
+    icon: FaGithub,
+    href: "https://github.com/senthamizhselvanv",
+    label: "GitHub",
+  },
+  {
+    icon: FaLinkedin,
+    href: "https://linkedin.com/in/senthamizhselvan-v",
+    label: "LinkedIn",
+  },
 ];
 
 const floatingIcons = [
-  { icon: FaReact, color: '#61DAFB', delay: 0 },
-  { icon: FaJs, color: '#F7DF1E', delay: 0.5 },
-  { icon: SiTypescript, color: '#3178C6', delay: 1 },
-  { icon: SiRedux, color: '#764ABC', delay: 1.5 },
-  { icon: SiTailwindcss, color: '#06B6D4', delay: 2 },
-  { icon: FaNode, color: '#339933', delay: 2.5 }
+  { icon: FaReact, color: "#61DAFB", delay: 0 },
+  { icon: FaJs, color: "#F7DF1E", delay: 0.5 },
+  // { icon: SiTypescript, color: '#3178C6', delay: 1 },
+  { icon: SiRedux, color: "#764ABC", delay: 1.5 },
+  { icon: SiTailwindcss, color: "#06B6D4", delay: 2 },
+  // { icon: FaNode, color: '#339933', delay: 2.5 }
 ];
 
 function Hero() {
@@ -25,7 +39,7 @@ function Hero() {
     const element = document.querySelector(href);
     if (element) {
       const offsetTop = element.offsetTop - 80;
-      window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+      window.scrollTo({ top: offsetTop, behavior: "smooth" });
     }
   };
 
@@ -42,16 +56,16 @@ function Hero() {
         <motion.div
           key={index}
           className="floating-icon"
-          style={{ '--icon-color': item.color }}
+          style={{ "--icon-color": item.color }}
           initial={{ opacity: 0, scale: 0 }}
-          animate={{ 
-            opacity: 0.6, 
+          animate={{
+            opacity: 0.6,
             scale: 1,
-            y: [0, -20, 0]
+            y: [0, -20, 0],
           }}
-          transition={{ 
+          transition={{
             delay: item.delay,
-            y: { repeat: Infinity, duration: 3, delay: item.delay }
+            y: { repeat: Infinity, duration: 3, delay: item.delay },
           }}
         >
           <item.icon />
@@ -73,7 +87,7 @@ function Hero() {
               <div className="image-ring" />
               <div className="image-ring ring-2" />
             </div>
-            <motion.div 
+            <motion.div
               className="status-badge"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -90,30 +104,26 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <motion.p 
+            <motion.p
               className="greeting"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              Hi there, I'm 👋
+              Hi there, I'm
             </motion.p>
-            
-            <h1 className="name">
-              Senthamizhselvan <span className="highlight">V</span>
-            </h1>
+
+            <h1 className="name">Senthamizhselvan.V</h1>
 
             <div className="role-wrapper">
               <TypeAnimation
                 sequence={[
-                  'React Developer',
+                  "Senior Frontend Developer",
                   2000,
-                  'Frontend Engineer',
+                  "React.js Developer",
                   2000,
-                  'JavaScript Specialist',
+                  "JavaScript Enthusiast",
                   2000,
-                  'UI Developer',
-                  2000
                 ]}
                 wrapper="h2"
                 className="role"
@@ -123,19 +133,28 @@ function Hero() {
             </div>
 
             <p className="description">
-              Frontend Developer with <strong>4+ years</strong> of experience building scalable, 
-              responsive, and high-performance web applications using <strong>React.js</strong>, 
-              Redux, JavaScript, and modern frontend technologies.
+              Frontend Developer with <strong>6+ years</strong> of experience
+              building enterprise web applications. Experienced in{" "}
+              <strong>React.js</strong>, Redux, jQuery, JavaScript, and modern
+              frontend technologies. Started with Visual Basic, later worked on
+              React.js applications, and currently develop enterprise UI modules
+              for Disaster Recovery Management systems.
             </p>
 
             <div className="hero-actions">
-              <a href="/resume.pdf" className="btn btn-primary" download>
+              {/* <a href="/resume.pdf" className="btn btn-primary" download>
                 <FaDownload /> Download Resume
-              </a>
-              <button onClick={() => handleScroll('#contact')} className="btn btn-secondary">
+              </a> */}
+              <button
+                onClick={() => handleScroll("#contact")}
+                className="btn btn-secondary"
+              >
                 <FaEnvelope /> Contact Me
               </button>
-              <button onClick={() => handleScroll('#projects')} className="btn btn-outline">
+              <button
+                onClick={() => handleScroll("#projects")}
+                className="btn btn-outline"
+              >
                 View Projects
               </button>
             </div>
@@ -163,7 +182,7 @@ function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, y: [0, 10, 0] }}
           transition={{ delay: 1.5, y: { repeat: Infinity, duration: 1.5 } }}
-          onClick={() => handleScroll('#about')}
+          onClick={() => handleScroll("#about")}
         >
           <FaArrowDown />
           <span>Scroll Down</span>

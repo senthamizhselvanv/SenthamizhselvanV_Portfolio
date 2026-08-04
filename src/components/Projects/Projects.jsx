@@ -1,16 +1,17 @@
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaTimes } from 'react-icons/fa';
-import { projects, projectCategories } from '../../data/projects';
-import './Projects.scss';
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt, FaTimes } from "react-icons/fa";
+import { projects, projectCategories } from "../../data/projects";
+import "./Projects.scss";
 
 function Projects() {
-  const [activeFilter, setActiveFilter] = useState('All');
+  const [activeFilter, setActiveFilter] = useState("All");
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const filteredProjects = activeFilter === 'All'
-    ? projects
-    : projects.filter(project => project.category === activeFilter);
+  const filteredProjects =
+    activeFilter === "All"
+      ? projects
+      : projects.filter((project) => project.category === activeFilter);
 
   return (
     <section className="projects section" id="projects">
@@ -54,7 +55,7 @@ function Projects() {
           {projectCategories.map((category) => (
             <button
               key={category}
-              className={`filter-btn ${activeFilter === category ? 'active' : ''}`}
+              className={`filter-btn ${activeFilter === category ? "active" : ""}`}
               onClick={() => setActiveFilter(category)}
             >
               {category}
@@ -84,41 +85,28 @@ function Projects() {
                     <button className="view-btn">View Details</button>
                   </div>
                 </div>
-                
+
                 <div className="project-content">
                   <div className="project-header">
                     <span className="project-category">{project.category}</span>
-                    {project.featured && <span className="featured-badge">Featured</span>}
+                    {project.featured && (
+                      <span className="featured-badge">Featured</span>
+                    )}
                   </div>
                   <h3 className="project-title">{project.title}</h3>
                   <p className="project-description">{project.description}</p>
-                  
+
                   <div className="project-tech">
                     {project.technologies.slice(0, 4).map((tech, i) => (
-                      <span key={i} className="tech-tag">{tech}</span>
+                      <span key={i} className="tech-tag">
+                        {tech}
+                      </span>
                     ))}
                     {project.technologies.length > 4 && (
-                      <span className="tech-tag more">+{project.technologies.length - 4}</span>
+                      <span className="tech-tag more">
+                        +{project.technologies.length - 4}
+                      </span>
                     )}
-                  </div>
-                  
-                  <div className="project-links">
-                    <a 
-                      href={project.github} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <FaGithub /> Code
-                    </a>
-                    <a 
-                      href={project.demo} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <FaExternalLinkAlt /> Demo
-                    </a>
                   </div>
                 </div>
               </motion.div>
@@ -142,24 +130,26 @@ function Projects() {
                 exit={{ opacity: 0, scale: 0.9, y: 50 }}
                 onClick={(e) => e.stopPropagation()}
               >
-                <button 
+                <button
                   className="modal-close"
                   onClick={() => setSelectedProject(null)}
                 >
                   <FaTimes />
                 </button>
-                
+
                 <div className="modal-image">
                   <div className="image-placeholder large">
                     <span>{selectedProject.title.slice(0, 2)}</span>
                   </div>
                 </div>
-                
+
                 <div className="modal-content">
-                  <span className="project-category">{selectedProject.category}</span>
+                  <span className="project-category">
+                    {selectedProject.category}
+                  </span>
                   <h3>{selectedProject.title}</h3>
                   <p>{selectedProject.longDescription}</p>
-                  
+
                   <div className="modal-features">
                     <h4>Key Features</h4>
                     <ul>
@@ -168,33 +158,16 @@ function Projects() {
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div className="modal-tech">
                     <h4>Technologies Used</h4>
                     <div className="tech-list">
                       {selectedProject.technologies.map((tech, i) => (
-                        <span key={i} className="tech-tag">{tech}</span>
+                        <span key={i} className="tech-tag">
+                          {tech}
+                        </span>
                       ))}
                     </div>
-                  </div>
-                  
-                  <div className="modal-actions">
-                    <a 
-                      href={selectedProject.github} 
-                      className="btn btn-secondary"
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <FaGithub /> View Code
-                    </a>
-                    <a 
-                      href={selectedProject.demo} 
-                      className="btn btn-primary"
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <FaExternalLinkAlt /> Live Demo
-                    </a>
                   </div>
                 </div>
               </motion.div>

@@ -11,12 +11,10 @@ export const frontendSkills = [
   { name: 'React.js', level: 95, icon: FaReact, color: '#61DAFB' },
   { name: 'Redux', level: 90, icon: SiRedux, color: '#764ABC' },
   { name: 'JavaScript', level: 95, icon: FaJs, color: '#F7DF1E' },
-  { name: 'TypeScript', level: 80, icon: SiTypescript, color: '#3178C6' },
   { name: 'HTML5', level: 95, icon: FaHtml5, color: '#E34F26' },
   { name: 'CSS3', level: 90, icon: FaCss3Alt, color: '#1572B6' },
   { name: 'SCSS/Sass', level: 88, icon: SiSass, color: '#CC6699' },
   { name: 'Bootstrap', level: 90, icon: FaBootstrap, color: '#7952B3' },
-  { name: 'Tailwind CSS', level: 85, icon: SiTailwindcss, color: '#06B6D4' },
   { name: 'jQuery', level: 85, icon: SiJquery, color: '#0769AD' }
 ];
 
