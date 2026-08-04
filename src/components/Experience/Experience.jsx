@@ -72,22 +72,22 @@ function Experience() {
                 <div className="responsibilities">
                   <h4>Key Responsibilities</h4>
                   <ul>
-                    {exp.responsibilities.map((item, i) => (
-                      <li key={i}>{item}</li>
+                    {exp.responsibilities.map((item) => (
+                      <li key={item}>{item}</li>
                     ))}
                   </ul>
                 </div>
 
                 <div className="technologies">
-                  {exp.technologies.map((tech, i) => (
-                    <span key={i} className="tech-tag">{tech}</span>
+                  {exp.technologies.map((tech) => (
+                    <span key={tech} className="tech-tag">{tech}</span>
                   ))}
                 </div>
 
                 {exp.achievements && (
                   <div className="achievements">
-                    {exp.achievements.map((achievement, i) => (
-                      <span key={i} className="badge badge-success">
+                    {exp.achievements.map((achievement) => (
+                      <span key={achievement} className="badge badge-success">
                         ✓ {achievement}
                       </span>
                     ))}
@@ -108,9 +108,9 @@ function Experience() {
             <FaGraduationCap /> Education
           </h3>
           
-          {education.map((edu, index) => (
+          {education.map((edu) => (
             <motion.div
-              key={index}
+              key={edu.id}
               className="education-card card-glass"
               whileHover={{ y: -5 }}
             >
@@ -123,8 +123,8 @@ function Experience() {
               </p>
               <p className="education-description">{edu.description}</p>
               <div className="education-achievements">
-                {edu.achievements.map((achievement, i) => (
-                  <span key={i} className="badge">{achievement}</span>
+                {edu.achievements.map((achievement) => (
+                  <span key={achievement} className="badge">{achievement}</span>
                 ))}
               </div>
             </motion.div>
