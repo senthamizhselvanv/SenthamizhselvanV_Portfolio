@@ -7,7 +7,7 @@ export const experiences = [
     duration: "Mar 2023 - Present",
     type: "Full-time",
     description:
-      "Working as a Senior UI Developer on enterprise web applications using React.js, JavaScript, jQuery, and REST APIs. Contributed to multiple enterprise products including Disaster Recovery Management (DRM) and Bot Patrol.",
+      "Worked as a Senior UI Developer on enterprise web applications using React.js, JavaScript, jQuery, and REST APIs. Contributed to multiple enterprise products including Disaster Recovery Management (DRM) and Bot Patrol.",
     responsibilities: [
       "Developed 10+ enterprise modules for the Disaster Recovery Management (DRM) platform.",
       "Built responsive UI using React.js, JavaScript, jQuery, HTML5, CSS3, and Bootstrap.",
@@ -24,7 +24,7 @@ export const experiences = [
       "React.js",
       "JavaScript",
       "jQuery",
-      "Redux",
+      "Redux Toolkit",
       "HTML5",
       "CSS3",
       "Bootstrap",

@@ -111,7 +111,7 @@ function Experience() {
           {education.map((edu) => (
             <motion.div
               key={edu.id}
-              className="education-card card-glass"
+              className="education-card mt-2 card-glass"
               whileHover={{ y: -5 }}
             >
               <div className="education-header">

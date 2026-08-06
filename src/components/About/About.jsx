@@ -82,7 +82,7 @@ function About() {
               developing enterprise web applications. My core expertise includes
               <strong>
                 {" "}
-                React.js, JavaScript, jQuery, HTML5, CSS3, Bootstrap, Redux, and
+                React.js, JavaScript, jQuery, HTML5, CSS3, Bootstrap, Redux Toolkit and
                 REST API integration
               </strong>
               , enabling me to build scalable, responsive, and user-friendly
@@ -145,11 +145,7 @@ function About() {
                 <span className="highlight-icon">🐞</span>
                 <span>Bug Fixing & Performance Optimization</span>
               </div>
-
-              <div className="highlight-item">
-                <span className="highlight-icon">💻</span>
-                <span>React.js JavaScript jQuery</span>
-              </div>
+                        
             </div>
           </motion.div>
 
@@ -183,7 +179,7 @@ function About() {
                     skills: [<span className="string">"React.js"</span>,
                     <span className="string">"JavaScript"</span>,
                     <span className="string">"jQuery"</span>,
-                    <span className="string">"Redux"</span>
+                    <span className="string">"Redux Toolkit"</span>
                     ],
                   </span>
 

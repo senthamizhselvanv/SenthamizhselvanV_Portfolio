@@ -135,9 +135,9 @@ function Hero() {
             <p className="description">
               Frontend Developer with <strong>6+ years</strong> of experience
               building enterprise web applications. Experienced in{" "}
-              <strong>React.js</strong>, Redux, jQuery, JavaScript, and modern
+              <strong>JavaScript, jQuery, React.js</strong>, Redux Toolkit and modern
               frontend technologies. Started with Visual Basic, later worked on
-              React.js applications, and currently develop enterprise UI modules
+              JavaScript and React.js applications and currently develop enterprise UI modules
               for Disaster Recovery Management systems.
             </p>
 
