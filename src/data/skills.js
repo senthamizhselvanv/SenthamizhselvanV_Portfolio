@@ -20,6 +20,8 @@ import {
   SiTailwindcss,
   SiSharp,
   SiDotnet,
+  SiReactrouter,
+  SiReacthookform,
 } from "react-icons/si";
 
 export const frontendSkills = [
@@ -27,6 +29,14 @@ export const frontendSkills = [
   { name: "jQuery", level: 85, icon: SiJquery, color: "#0769AD" },
   { name: "React.js", level: 75, icon: FaReact, color: "#61DAFB" },
   { name: "Redux Toolkit", level: 70, icon: SiRedux, color: "#764ABC" },
+
+  { name: "React Hooks", level: 70, icon: SiReacthookform, color: "#61DAFB" },
+  { name: "React Router", level: 75, icon: SiReactrouter, color: "#61DAFB" },
+  { name: "useCallback", level: 75, icon: FaReact, color: "#61DAFB" },
+  { name: "useMemo", level: 75, icon: FaReact, color: "#61DAFB" },
+  { name: "Lazy Loading", level: 75, icon: FaReact, color: "#61DAFB" },
+  { name: "Axios", level: 75, icon: FaReact, color: "#61DAFB" },
+
   { name: "HTML5", level: 70, icon: FaHtml5, color: "#E34F26" },
   { name: "CSS3", level: 70, icon: FaCss3Alt, color: "#1572B6" },
   { name: "SCSS/Sass", level: 70, icon: SiSass, color: "#CC6699" },
@@ -37,10 +47,9 @@ export const backendSkills = [
   { name: "C#", level: 70, icon: SiSharp, color: "#6A1B9A" },
   { name: "Web API", level: 70, icon: SiDotnet, color: "#2E8B57" },
   { name: "Entity Framework", level: 65, icon: SiDotnet, color: "#3F51B5" },
-  { name: "SQL Server", level: 60, icon: FaCode, color: "#4479A1" },
 ];
 
-export const toolsSkills = [  
+export const toolsSkills = [
   { name: "VS Code", icon: FaCode, color: "#007ACC" },
   { name: "Git", icon: FaGitAlt, color: "#F05032" },
   { name: "GitHub", icon: FaGithub, color: "#181717" },
