@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaHeart } from 'react-icons/fa';
 import './Footer.scss';
 
 const socialLinks = [
-  { icon: FaGithub, href: 'https://github.com/senthamizhselvanv', label: 'GitHub' },
+  // { icon: FaGithub, href: 'https://github.com/senthamizhselvanv', label: 'GitHub' },
   { icon: FaLinkedin, href: 'https://linkedin.com/in/senthamizhselvan-v', label: 'LinkedIn' },
 ];
 
