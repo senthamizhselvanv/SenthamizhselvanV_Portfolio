@@ -81,9 +81,9 @@ function Navbar() {
 
         <div className="navbar-actions">
           <ThemeToggle />
-          <a href="#contact" className="btn btn-primary btn-sm hire-btn" onClick={(e) => handleNavClick(e, '#contact')}>
+          {/* <a href="#contact" className="btn btn-primary btn-sm hire-btn" onClick={(e) => handleNavClick(e, '#contact')}>
             Hire Me
-          </a>
+          </a> */}
           <button
             className="mobile-menu-btn"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
