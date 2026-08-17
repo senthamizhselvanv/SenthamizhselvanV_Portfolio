@@ -132,7 +132,7 @@ function Hero() {
               {/* <a href="/resume.pdf" className="btn btn-primary" download>
                 <FaDownload /> Download Resume
               </a> */}
-              <button
+              {/* <button
                 onClick={() => handleScroll("#contact")}
                 className="btn btn-secondary"
               >
@@ -143,7 +143,7 @@ function Hero() {
                 className="btn btn-outline"
               >
                 View Projects
-              </button>
+              </button> */}
             </div>
 
             <div className="hero-social">
