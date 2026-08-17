@@ -12,7 +12,7 @@ function Home() {
     <>
       <Helmet>
         <title>
-          Senthamizhselvan V | Senior Frontend Developer | React Developer
+          {metaData.title}
         </title>
         <meta name={metaData.description} content={metaData.descContent} />
         <meta name={metaData.keywords} content={metaData.keyContent} />

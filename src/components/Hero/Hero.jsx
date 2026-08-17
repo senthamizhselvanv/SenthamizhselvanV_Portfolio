@@ -11,6 +11,7 @@ import {
 import { FaReact, FaJs, FaNode } from "react-icons/fa";
 import { SiTypescript, SiRedux, SiTailwindcss } from "react-icons/si";
 import "./Hero.scss";
+import { description, sequence } from "../../data/hero";
 
 const socialLinks = [
   {
@@ -117,14 +118,7 @@ function Hero() {
 
             <div className="role-wrapper">
               <TypeAnimation
-                sequence={[
-                  "Senior Frontend Developer",
-                  2000,
-                  "React.js Developer",
-                  2000,
-                  "JavaScript Enthusiast",
-                  2000,
-                ]}
+                sequence={sequence}
                 wrapper="h2"
                 className="role"
                 repeat={Infinity}
@@ -132,14 +126,7 @@ function Hero() {
               />
             </div>
 
-            <p className="description">
-              Frontend Developer with <strong>6+ years</strong> of experience
-              building enterprise web applications. Experienced in{" "}
-              <strong>React.js, JavaScript, jQuery,</strong> HTML5, CSS3, Bootstrap, 
-              REST API and modern frontend technologies. Started with 
-              Visual Basic, later worked on JavaScript and React.js applications and 
-              developed enterprise UI modules for Disaster Recovery Management systems.
-            </p>
+            <p className="description">{description}</p>
 
             <div className="hero-actions">
               {/* <a href="/resume.pdf" className="btn btn-primary" download>

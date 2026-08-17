@@ -31,31 +31,25 @@ export const frontendSkills = [
   { name: "Redux Toolkit", level: 70, icon: SiRedux, color: "#764ABC" },
 
   { name: "React Hooks", level: 70, icon: SiReacthookform, color: "#61DAFB" },
-  { name: "React Router", level: 75, icon: SiReactrouter, color: "#61DAFB" },
-  { name: "useCallback", level: 75, icon: FaReact, color: "#61DAFB" },
-  { name: "useMemo", level: 75, icon: FaReact, color: "#61DAFB" },
+  { name: "React Router", level: 75, icon: SiReactrouter, color: "#61DAFB" }, 
   { name: "Lazy Loading", level: 75, icon: FaReact, color: "#61DAFB" },
   { name: "Axios", level: 75, icon: FaReact, color: "#61DAFB" },
 
   { name: "HTML5", level: 70, icon: FaHtml5, color: "#E34F26" },
-  { name: "CSS3", level: 70, icon: FaCss3Alt, color: "#1572B6" },
-  { name: "SCSS/Sass", level: 70, icon: SiSass, color: "#CC6699" },
+  { name: "CSS3", level: 70, icon: FaCss3Alt, color: "#1572B6" },  
   { name: "Bootstrap", level: 70, icon: FaBootstrap, color: "#7952B3" },
 ];
 
 export const backendSkills = [
-  { name: "C#", level: 70, icon: SiSharp, color: "#6A1B9A" },
-  { name: "Web API", level: 70, icon: SiDotnet, color: "#2E8B57" },
-  { name: "Entity Framework", level: 65, icon: SiDotnet, color: "#3F51B5" },
+  { name: "C#", level: 50, icon: SiSharp, color: "#6A1B9A" },
+  { name: "ASP.NET Web API", level: 50, icon: SiDotnet, color: "#2E8B57" },
+  { name: "Entity Framework", level: 50, icon: SiDotnet, color: "#3F51B5" },
 ];
 
-export const toolsSkills = [
-  { name: "VS Code", icon: FaCode, color: "#007ACC" },
+export const toolsSkills = [ 
   { name: "Git", icon: FaGitAlt, color: "#F05032" },
   { name: "GitHub", icon: FaGithub, color: "#181717" },
-  { name: "Postman", icon: SiPostman, color: "#FF6C37" },
-  { name: "Vite", icon: SiVite, color: "#646CFF" },
-  { name: "npm", icon: FaNpm, color: "#CB3837" },
+  { name: "Postman", icon: SiPostman, color: "#FF6C37" },  
 ];
 
 export const skillCategories = [

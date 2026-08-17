@@ -7,14 +7,14 @@ export const experiences = [
     duration: "Mar 2023 - Jul 2026",
     type: "Full-time",
     description:
-      "Worked as a Senior UI Developer on enterprise web applications using React.js, JavaScript, jQuery, and REST APIs. Contributed to multiple enterprise products including Disaster Recovery Management (DRM) and Bot Patrol.",
+      "Worked as a Senior UI Developer on enterprise web applications using React.js, JavaScript, jQuery, and REST APIs. Contributed to enterprise products including Disaster Recovery Management (DRM) and Bot Patrol.",
     responsibilities: [
       "Developed 10+ enterprise modules for the Disaster Recovery Management (DRM) platform.",
       "Built responsive UI using React.js, JavaScript, jQuery, HTML5, CSS3, and Bootstrap.",
       "Integrated multiple REST APIs to enable seamless communication between frontend modules and backend services.",
       "Developed reusable UI components and client-side validations.",
       "Developed React.js screens for Bot Patrol rule configuration and live event monitoring.",
-      "Implemented configurable behaviour detection rules for running, crowding, intrusion, and loitering.",
+      "Developed UI modules for configurable behaviour detection rules including running, crowding, intrusion, and loitering.",
       "Collaborated with backend developers and QA teams.",
       "Resolved production defects reported by QA and clients.",
       "Participated in code reviews, production deployments, and post-release support.",
@@ -25,8 +25,7 @@ export const experiences = [
       "jQuery",
       "React.js",
       "Redux Toolkit",
-      "React Hooks (useCallback, useMemo)",
-      "Lazy Loading",
+      "React Hooks (useState, useEffect, useCallback, useMemo)",
       "React Router",
       "Axios",
       "REST API",
@@ -47,7 +46,7 @@ export const experiences = [
     duration: "Jun 2020 - Feb 2023",
     type: "Full-time",
     description:
-      "Worked on enterprise applications using React.js and Visual Basic. Contributed to frontend development, REST API integration, backend Web API development, bug fixing, and feature enhancements while following Agile methodologies.",
+      "Worked on enterprise applications using React.js and Visual Basic. Contributed to frontend development, REST API integration, Web API development, bug fixing, and feature enhancements while following Agile methodologies.",
     responsibilities: [
       "Developed reusable React.js components for the Scalehigh application.",
       "Integrated REST APIs with frontend modules.",
