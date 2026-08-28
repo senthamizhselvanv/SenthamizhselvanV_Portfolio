@@ -36,7 +36,6 @@ export const projects = [
       "React Hooks",
       "React Router",
       "Axios",
-      "REST APIs",
     ],
     category: "Surveillance Application",
     features: [

@@ -3,7 +3,7 @@ export const metaData = {
   description: "description",
   descContent: `Senthamizhselvan V - Senior Frontend Developer with 6+ years of software 
   development experience, specializing in React.js and JavaScript. 
-  Experienced in building reusable, responsive enterprise web applications 
+  Experienced in building reusable, enterprise web applications 
   using React.js, Redux Toolkit, React Hooks, REST APIs, Axios, React Router, 
   HTML5, CSS3, and Bootstrap. Strong experience in API integration, component 
   development, performance optimization, debugging, and production support.`,

@@ -10,8 +10,7 @@ export const experiences = [
       "Worked as a Senior UI Developer on enterprise web applications using React.js, JavaScript, jQuery, and REST APIs. Contributed to enterprise products including Disaster Recovery Management (DRM) and Bot Patrol.",
     responsibilities: [
       "Developed 10+ enterprise modules for the Disaster Recovery Management (DRM) platform.",
-      "Built responsive UI using React.js, JavaScript, jQuery, HTML5, CSS3, and Bootstrap.",
-      "Integrated multiple REST APIs to enable seamless communication between frontend modules and backend services.",
+      "Built UI using React.js, JavaScript, jQuery, HTML5, CSS3, and Bootstrap.",
       "Developed reusable UI components and client-side validations.",
       "Developed React.js screens for Bot Patrol rule configuration and live event monitoring.",
       "Developed UI modules for configurable behaviour detection rules including running, crowding, intrusion, and loitering.",
@@ -28,7 +27,6 @@ export const experiences = [
       "React Hooks (useState, useEffect, useCallback, useMemo)",
       "React Router",
       "Axios",
-      "REST API",
       "TortoiseSVN",
     ],
     achievements: [
